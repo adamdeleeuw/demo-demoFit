@@ -2,6 +2,8 @@
 
 A professional, responsive landing page for a boutique fitness studio built with Next.js 15, React 18, and Tailwind CSS.
 
+Link: (vercel link)
+
 ## 🚀 Features
 
 - **Responsive Design**: Mobile-first approach with seamless desktop experience
@@ -23,20 +25,20 @@ A professional, responsive landing page for a boutique fitness studio built with
 ## 📦 Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/demofit-landing.git
-cd demofit-landing
-\`\`\`
+    ```bash
+    git clone https://github.com/yourusername/demofit-landing.git
+    cd demofit-landing
+    ```
 
 2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
+    ```bash
+    npm install
+    ```
 
 3. Run the development server:
-\`\`\`bash
-npm run dev
-\`\`\`
+    ```bash
+    npm run dev
+    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -51,18 +53,18 @@ npm run dev
 ### Manual Deployment
 
 1. Build the project:
-\`\`\`bash
-npm run build
-\`\`\`
+    ```bash
+    npm run build
+    ```
 
 2. Start the production server:
-\`\`\`bash
-npm start
-\`\`\`
+    ```bash
+    npm start
+    ```
 
 ## 📁 Project Structure
 
-\`\`\`
+```text
 demofit-landing/
 ├── app/
 │   ├── globals.css
@@ -76,7 +78,7 @@ demofit-landing/
 ├── next.config.mjs
 ├── tailwind.config.js
 └── package.json
-\`\`\`
+```
 
 ## 🎨 Customization
 
@@ -121,12 +123,8 @@ Replace the images in the `public/images/` directory:
 
 ## 📄 License
 
-MIT License - feel free to use this project for your own fitness studio or client projects.
+This project is for demonstration purposes only.
 
-## 🤝 Contributing
+## Deployment
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-For questions or support, please open an issue on GitHub.
+- Connect your GitHub repo to Vercel and deploy from there with zero configuration.
