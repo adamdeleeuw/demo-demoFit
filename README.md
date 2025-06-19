@@ -1,7 +1,8 @@
 # DemoFit — Boutique Fitness Studio Landing Page
-*A premium, production-ready landing page for a boutique fitness studio, built in days to showcase rapid Next.js/TypeScript delivery.*
+*Instant one-page booking site • React + Tailwind • Built by Adam de Leeuw*
 
-[![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](vercel-link-here)
+[![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](https://demo-demo-fit.vercel.app/) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
 
