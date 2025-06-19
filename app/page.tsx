@@ -65,7 +65,7 @@ export default function DemoFitLanding() {
               Our Philosophy
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We believe fitness is more than just physical transformation. It's about building confidence, community,
+              We believe fitness is more than just physical transformation. It&apos;s about building confidence, community,
               and a sustainable lifestyle that energizes every aspect of your life.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function DemoFitLanding() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Community First</h3>
               <p className="text-gray-600 leading-relaxed">
-                Join a supportive community where everyone celebrates each other's victories. Together, we're stronger
+                Join a supportive community where everyone celebrates each other&apos;s victories. Together, we&apos;re stronger
                 and more motivated to reach our goals.
               </p>
             </div>
@@ -289,7 +289,7 @@ export default function DemoFitLanding() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Emma L.</h3>
                 <p className="text-amber-600 font-medium mb-3">Yoga & Barre Instructor</p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Emma's mindful approach to movement helps students find balance and strength. 200-hour RYT certified
+                  Emma&apos;s mindful approach to movement helps students find balance and strength. 200-hour RYT certified
                   with expertise in Vinyasa and restorative yoga.
                 </p>
               </CardContent>
