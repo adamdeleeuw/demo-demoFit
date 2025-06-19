@@ -58,7 +58,7 @@ npm run dev # http://localhost:3000
 
 ## 8. License
 
-This project is for demonstration purposes only.
+Released under the MIT License—free for learning, adaptation, and remixing.
 
 ## About Me
 
