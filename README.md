@@ -1,130 +1,66 @@
-# DemoFit Landing Page
+# DemoFit — Boutique Fitness Studio Landing Page
+*A premium, production-ready landing page for a boutique fitness studio, built in days to showcase rapid Next.js/TypeScript delivery.*
 
-A professional, responsive landing page for a boutique fitness studio built with Next.js 15, React 18, and Tailwind CSS.
+[![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](vercel-link-here)
 
-Link: (vercel link)
+---
 
-## 🚀 Features
+## 1. Why I Built It
+Modern fitness studios need a digital presence that **inspires, converts, and feels world-class**—without agency overhead. DemoFit proves you can launch a beautiful, accessible, and high-performance site in record time, ready for real users and scalable for future growth.
 
-- **Responsive Design**: Mobile-first approach with seamless desktop experience
-- **Modern Tech Stack**: Next.js 15, React 18, TypeScript, Tailwind CSS
-- **Performance Optimized**: Image optimization, lazy loading, and Core Web Vitals focused
-- **SEO Ready**: Comprehensive meta tags, structured data, and semantic HTML
-- **Accessibility**: WCAG compliant with proper ARIA labels and semantic markup
-- **Professional UI**: Clean design with smooth animations and hover effects
+## 2. Thought Process & Design
+- **User flow:** Land → see the energy → skim classes/instructors → trust the brand → book or contact (≤ 90 s).
+- **Design priorities:** Bold, energetic palette; clean, modern UI; zero layout shift; seamless mobile/desktop experience.
+- **AI leverage:** Used shadcn/ui and Vercel v0 for scaffolding, then hand-crafted layouts, TypeScript contracts, and accessibility.
 
-## 🏗️ Tech Stack
+## 3. Tech Stack & Architecture
+| Layer         | Details                                                      |
+|--------------|--------------------------------------------------------------|
+| **Framework**| Next.js 15 (App Router) • React 18 • TypeScript              |
+| **Styling**  | Tailwind CSS • shadcn/ui • Lucide icons                      |
+| **Infra**    | Deployed on Vercel; static assets in `/public`               |
+| **CI/Dev**   | GitHub + Vercel for auto-deploy; ESLint & TypeScript checks  |
 
-- **Framework**: Next.js 15 with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui
-- **Icons**: Lucide React
-- **Deployment**: Vercel (recommended)
+## 4. Core Features
+| Feature                | Impact                                                      |
+|-----------------------|------------------------------------------------------------|
+| 🏠 **Hero Section**    | Instantly communicates brand energy and value              |
+| 📅 **Class Schedule**  | Responsive, easy-to-skim, mobile-first                     |
+| 🧑‍🏫 **Instructors**    | Team spotlight with photos and bios                        |
+| 📞 **Contact Form**    | Accessible, client-side validated, ready for integration   |
+| 📱 **Mobile First**    | Fully responsive, touch-friendly navigation                |
+| 🎨 **Brand Palette**   | Energetic gold/amber accents, clean modern typography      |
+| ♿ **Accessibility**    | Semantic HTML, ARIA labels                |
 
-## 📦 Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/demofit-landing.git
-    cd demofit-landing
-    ```
-
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Run the development server:
-    ```bash
-    npm run dev
-    ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🚀 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with zero configuration
-
-### Manual Deployment
-
-1. Build the project:
-    ```bash
-    npm run build
-    ```
-
-2. Start the production server:
-    ```bash
-    npm start
-    ```
-
-## 📁 Project Structure
-
-```text
-demofit-landing/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   └── ui/
-├── public/
-│   └── images/
-├── lib/
-├── next.config.mjs
-├── tailwind.config.js
-└── package.json
+## 5. Quick Start (Local)
+```bash
+git clone https://github.com/yourusername/demofit-landing.git
+cd demofit-landing
+npm install
+npm run dev # http://localhost:3000
 ```
 
-## 🎨 Customization
+## 6. Future Improvements 📈
+- Add booking/payment integration (Stripe, Calendly)
+- Static props caching for class/instructor data
+- Incremental Static Regeneration for instant content updates
+- Cypress e2e for full nav + form flow
+- SEO meta auto-generation from content
+- Cloudinary CDN for on-the-fly image transforms
+- PWA manifest + offline class schedules
 
-### Colors
-The primary color scheme uses amber/gold accents. Update the colors in `tailwind.config.js` and `app/globals.css`.
+## 7. What I Learned 🧠
+- 🚀 **SEO-First Development:** Leveraged Next.js’s built-in features for high Lighthouse scores and web performance.
+- 🛠️ **Modern Frontend Stack:** Built scalable UI with React, Tailwind, and shadcn/ui, focusing on accessibility and rapid iteration.
+- 🧩 **Component-Driven Architecture:** Practiced modular design for easy expansion and code reuse.
+- 🤝 **Collaboration & Version Control:** Used Git and GitHub for source control and CI/CD with Vercel.
 
-### Content
-Update the content in `app/page.tsx` to match your studio's information:
-- Studio name and branding
-- Class schedules
-- Instructor information
-- Contact details
-- Social media links
-
-### Images
-Replace the images in the `public/images/` directory:
-- `studio.jpg` - Hero background image
-- `sarah.jpg` - Instructor photo
-- `emma.jpg` - Instructor photo  
-- `mike.jpg` - Instructor photo
-
-## 🔧 Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run type-check` - Run TypeScript type checking
-
-## 📱 Responsive Breakpoints
-
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
-
-## 🎯 Performance
-
-- Lighthouse Score: 95+ (Performance, Accessibility, Best Practices, SEO)
-- Core Web Vitals optimized
-- Image optimization with Next.js Image component
-- Lazy loading for improved performance
-
-## 📄 License
+## 8. License
 
 This project is for demonstration purposes only.
 
-## Deployment
+## About Me
 
-- Connect your GitHub repo to Vercel and deploy from there with zero configuration.
+I’m Adam de Leeuw, a Computer Engineering student at UBC. I build product-quality demos and production apps fast by blending low-overhead tech with AI tooling, then document the process for teammates and clients.
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/adamjdl/)
