@@ -1,5 +1,5 @@
 # DemoFit — Boutique Fitness Studio Landing Page
-*Instant one-page booking site • React + Tailwind • Built by Adam de Leeuw*
+*A full-stack SaaS landing template built in days to demo rapid Next.js/TypeScript delivery.*
 
 [![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](https://demo-demo-fit.vercel.app/) 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -35,7 +35,7 @@ Modern fitness studios need a digital presence that **inspires, converts, and fe
 
 ## 5. Quick Start (Local)
 ```bash
-git clone https://github.com/yourusername/demofit-landing.git
+git clone https://github.com/adamdeleeuw/demo-demoFit.git
 cd demofit-landing
 npm install
 npm run dev # http://localhost:3000
